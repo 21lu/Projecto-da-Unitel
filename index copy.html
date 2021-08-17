@@ -9,75 +9,273 @@
         <link rel="stylesheet" href="css/style.css/index.css">
  </head>
  <body>
-    <header>
-        <div class="menu">
-        
-           <div calss="logo-menu">
-                <img width="110" height="110" src="Img/logotipo original da unitel.png" alt="Unitel">
-                        
-            </div>
+   <div class="container">
+     <div class="row" id="menu-main">
 
-            <nav>
-             <ul>
-                <li><a href="#">PARTICULARES</a></li>
-                <li><a href="#">EMPRESAS </a></li>
-                <li><a href="#">INSTITUCIONAL</a></li>
+       <div class="col-2 col-lg-2 col-sm-12 bg-white sub-menu" id="logo">
+       <img width="120" height="120" alt="Unitel" src="Img/logotipo original da unitel.png">
+       </div>
+          <div class="col-8 col-lg-8 col-sm-2 bg-primary sub-menu">
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="container-fluid">
+                 <div class="collapse navbar-collapse" id="navbarNaAltMarkup">
+                   <a class="nav-link active" aria-current="page" href="#">PARTICULARES</a>
+                   <a class="nav-link active" href="#">INSTITUCIONAL</a>
+                 </div>
+               </div>                                                            
+             </nav> 
+           </div>
+          </div>
+            
+              <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <form class="d-flex" action="">
-    
-                        <input class="form-control me-2" aria-label="Search" type="search" placeholder="pesquisar">
-                        <button class="btn btn-dark" type="submit">LOGIN</button>
-    
-                    </form>
+                  <div class="collapse navbar-collapse" id="navbarNaAltMarkup">
+                   <div class="navbar-nav">
+                       <a class="nav-link active" aria-current="page" href="#">Voz</a>
+                       <a class="nav-link active" href="#">SMS</a>
+                       <a class="nav-link active" href="#">Internet</a>
+                       <a class="nav-link active" href="#">Roaming</a>
+                       <a class="nav-link active" href="#">Mundo Unitel</a>
+                       <a class="nav-link active" href="#">Serviços</a>
+                       <a class="nav-link active" href="#">Apoio ao Cliente</a>
+                   </div>
+                  </div>
+                </div>                        
+              </nav>
+            </div>
+          </div>
+
+                <div class="col-2 col-lg-2 col-sm-12 sub-menu-login">
+                  <div class="row">
+                    <div class="col-6 col-lg-6 col-sm-6">
+                  <button class="header__btn header__btn__search" type="button" aria-expanded="false" aria-controls="js-search_container" data-toggle-class="opened">
+                  <span class="icon-search"></span>
+                  <span class="sr-only">Pesquisar</span>
+                  </button>
+                    </div>
+                  </div>
                 </div>
-             </ul>
-                
-               
-                                                           
-            </nav> 
+                <div class="col-12 col-lg-2 col-sm-12 bg-secondary">
+                  <div class="row" id="actions-menu">
+                    <div class="col-4 bg-while d-lg-flex actions-menu-item" id="section-login"><i class="bi bi-search"></i>
+                      <div class="col-8 bg-danger actions-menu-item" id="section-login">
+                        <i class="bi bi-person"></i>
+                        <a href="#">My unitel</a>
+                      </div>
+                   </div>  
+                  </div>
+                </div> 
+    </div>  
+       <div class="">
+         <div id="carouselExempleIdicators" class="carousel slide" data-bs-slide="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Img/assets/backup-img/img-1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/assets/backup-img/img-2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/assets/backup-img/img-3.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/assets/backup-img/img-4.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Img/assets/backup-img/img-5.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+
+      </div>
+
+
+<div class="" id="">
+  <footer>
+  <div class="row rodape">
+    <div class="col-12 col-lg-3 col-sm-12">
+      <a href="#">
+        <img src="img/telefone.png" width="16" height="16">
+        <i class="bi bi-phone"></i><span>VOZ</span></a>
+    </div>
+    <div class="col-12 col-lg-3 col-sm-12">
+      <a href="#">
+        <img src="img/internet.png" width="16" height="16">
+        <i class="bi bi-phone"></i><span>NET</span></a>
+    </div>
+    <div class="col-12 col-lg-3 col-sm-12">
+      <a href="#">
+        <img src="img/cadeado.png" width="16" height="16">
+        <i class="bi bi-phone"></i><span>MUNO UNITEL</span></a>
+    </div>
+    <div class="col-12 col-lg-3 col-sm-12">
+      <a href="#">
+        <img src="img/musica.png" width="16" height="16">
+        <i class="bi bi-phone"></i><span>CLUB DE PONTOS</span></a>
+    </div>
+
+  </div>
+  </footer>
+</div>
+
+    <div class="" id="conteudo">
+        <h1>Em destaque</h1>
+        <div class="row">
+          <div class=" col-6 col-md-6 col-lg-6">
+            <img src="img/assets/bg-1.jpeg" class="card-img-topo" alt="Img"></div>
+        <div class="col-6 col-lg-6 col-sm-12 p-5">
+            <h1>PLANOS MAIS DE 1 E 3 DIAS</h1>
+          <p>Não fiques de fora. Liga, entra na Net e mande Mensagens. A Unitel continua...</p>
+          <button type="button" class="btn btn-primary btn-lg">SABER MAIS</button>
         </div>
-        
-        <div class="sub-menu-main">
-               
-            <nav>
-                <ul>
-                    <li><a href="#">Voz</a></li>
-                    <li><a href="#">SMS</a></li>
-                    <li><a href="#">Internet</a></li>
-                    <li><a href="#">Roaming</a></li>
-                    <li><a href="#">Mundo Unitel</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Apoio ao Cliente</a></li>
-                 </ul>
-            </nav>
-          
         </div>
-        
+    </div>
+
+  <div class="row">
+    <div class="col-6 col-lg-6 col-sm-6 p-5">
+      <div class="card" id="fluim">
+        <img width="300" height="300" src="img/assets/card-1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">PORTAL UNITEL KIDS</h3>
+          <p class="card-text">Unitel Kids é um portal com conteúdo internacional e nacional para as crianças com uma finalidade...</p>
+          <a href="#" class="btn btn-primary">SABER MAIS AQUI ></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 col-lg-6 col-sm-6 p-5">
+      <div class="card" id="fluim">
+        <img width="300" height="300" src="img/assets/card-2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">4G UNITEL</h5>
+          <p class="card-text">Liga-te ao futuro com 4G! A velocidade a que se liga ao futuro faz...</p>
+          <a href="#" class="btn btn-primary">SABER MAIS AQUI ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="" id="conteudo">
+      <h1>Equipamentos</h1>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Telemoveis</a>
+          <div id="carouselExempleIdicators" class="carousel slide" data-bs-slide="carousel">
+            <div class="carousel-inner">
+              <div class="card" style="width: 18 rem;"></div>
+              <div class="carousel-item active">
+                <img width="100" height="50" src="img/TELEMOVEIS_IPHONE_SE.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/TELEMOVEIS_NOKIA.13.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/TELEMOVEIS_NOKIA_C20.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/TELEMOVEIS_SAMSUNG_GALAXY_A10S (1).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/TELEMOVEIS_SAMSUNG_GALAXY_A10S.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/Alcatel_50300fl.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/TELEMOVEIS_ALCATEL_1B.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100"src="img/TELEMOVEIS_XIAOMI_REDMI_9A.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        <a class="nav-link active" aria-current="page" href="#">ACESSORIOS</a>
+          <div id="carouselExempleIdicators" class="carousel slide" data-bs-slide="carousel">
+            <div class="carousel-inner">
+              <div class="card" style="width: 18 rem;"></div>
+              <div class="carousel-item active">
+                <img width="2" height="1" src="img/ACESSORIOS_APPLE_MAG-SAFE.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="Img/ACESSORIOS_APPLE_WATCH_S6.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/ACESSORIOS_FITBAND_GARMIN_VIVO-SPORT.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/ACESSORIOS_FITBAND_XIAOMI_MI_BAND5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/ACESSORIOS_MICRO_SD_CARD.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img width="100" height="100" src="img/ADAPTADOR-ZTL-MULTI-USB-MA20-01-1.png" class="d-block w-100" alt="...">
+              </div>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+        </li>
+      </ul>
+      
+      <div class="card bg-white text-dark">
+        <div class="card-img-lay">
+          <span id="phone-img">
+            <h2>App Unitel</h2>Tudo sobre a tua conta Unitel. Consulta o teu saldo e chamadas, <b>sem gastar net.</b>
+          </span>
+          <img src="Img/assets/phone.png" classe="card-img" alt="img">
+        </div>
+      </div>
+
+<div class="col-2 col-lg-2 col-smd-2 bg-dark logo-menu">
+    <img width="15" height="15" src="" alt="unitel">
+    <div>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-instagram-f"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-twiter"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-youtube"></i>
+    </a>
+
+</div>
+<div class="text-center p-4">
+  Copyring@ Unitel. 2021
+  <a class="tex-reset fw-bold" href="http//mdbootstrap.com"></a>      
+</div>
 
 
-       
+    
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/index.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </header>     
  </body>
 </html>      
