@@ -114,4 +114,24 @@
   color: #5c0f8b;
   margin-top: 30px;
 }
+.module_orange-bar__item{
+  position: relative;
+  background: linear-gradient(-90deg,#f16223 10%);
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+.module_orange-bar__item{
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.row-itens{
+  display: flex;
+  background-color: #f16223;
+}
+.card:hover{
+  box-shadow: inset 0 0 1em rgb(240, 238, 238), 0 0 1em rgb(202, 200, 200);
+}
+
+
 
