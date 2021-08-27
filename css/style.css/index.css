@@ -10,6 +10,7 @@
     display: inline;
     list-style-type: none;
     padding: 0%;
+    line-height: 60px;
   }
   .primeiro-menu ul li{
     display: inline;
@@ -185,12 +186,6 @@
   .justify-content-center{
       justify-content: center! important;
   }
-  .row{
-      display: flex;
-      flex-wrap: wrap;
-      margin-right: -15px;
-      margin-left: -15px;
-  }
   .footer__nav ul{
       padding: 0;
       margin: 0;
@@ -239,3 +234,57 @@
     margin-right: auto;
     margin-left: auto ;
   }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.p{
+  margin: 0;
+}
+.c-orange{
+  color: #f16223;
+}
+.c-whit{
+  color: #fff;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;  
+}
+.col-12{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.div{
+  display: block;
+}
+h2{
+  display: block;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.btn{
+  border: 1px solid transparent;
+    cursor: pointer;
+    color: #f16223;
+    background-color: #5c0f8b;
+    display: inline-block;
+    font-family: intro_boldregular,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    overflow: hidden;
+    padding: .75rem 1.375rem;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background .3s ease,color .3s 
+}
